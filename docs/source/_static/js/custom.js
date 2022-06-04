@@ -208,7 +208,7 @@ $(document).ready(() => {
     registerOnScrollEvent(mediaQuery);
   });
 
-  if (inDev) {
+ /* if (inDev) {
     // Add a compatibility notice using JavaScript so it doesn't end up in the
     // automatically generated `meta description` tag.
     const strippedUrl = [location.protocol, '//', location.host, location.pathname].join('');
@@ -227,7 +227,7 @@ $(document).ready(() => {
         </p>
       </div>
     `);
-  }
+  }*/
 
   // Load instant.page to prefetch pages upon hovering. This makes navigation feel
   // snappier. The script is dynamically appended as Read the Docs doesn't have
