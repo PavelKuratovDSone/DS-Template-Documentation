@@ -1,7 +1,7 @@
 Структура
 ============================
 
-kek
+
 
 .. toctree::
    :maxdepth: 1
@@ -20,7 +20,7 @@ kek
    folders/settings/index
    folders/shaders/index
    
-lol
+
 
 
 
