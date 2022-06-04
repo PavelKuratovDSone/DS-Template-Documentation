@@ -1,6 +1,6 @@
 Модели
 ====
-.. _models-label:
+.. _modelsfolder-label:
 
 Arrow
 """"""""""""""""""
