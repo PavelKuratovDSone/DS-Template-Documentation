@@ -6,18 +6,18 @@
    :caption: Папки
    :name: sec-folders
    
-   _AssetStore/index
-   _Examples/index
-   Art/index
-   HC-Engine/index
-   Plugins/index
-   Prefabs/index
-   Resources/index
-   Scenes/index
-   ScriptableObjects/index
-   Scripts/index
-   Settings/index
-   Shaders/index
+   assetstore/index
+   examples/index
+   art/index
+   hcengine/index
+   plugins/index
+   prefabs/index
+   resources/index
+   scenes/index
+   scriptableobjects/index
+   scripts/index
+   settings/index
+   shaders/index
 
 
 
