@@ -6,6 +6,7 @@ Engine.Coin
 
 Пример:
 
+::
 
     public class AddCoinsExample
     {
