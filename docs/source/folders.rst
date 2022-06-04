@@ -32,7 +32,7 @@ Models
 ~~~~~~~~~~~~~~~~~~
 Примитивные модели
 
- :ref:`models-label`
+:ref:`models-label`
 
 
 Shaders
