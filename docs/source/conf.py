@@ -73,10 +73,6 @@ man_pages = [
      [u'Read the Docs'], 1)
 ]
 
-texinfo_documents = [
-  ('index', 'DSone HC Template Documentation', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'DSone HC Template Documentation', 'One line description of project.',
-   'Miscellaneous'),
-]
+
 
 
