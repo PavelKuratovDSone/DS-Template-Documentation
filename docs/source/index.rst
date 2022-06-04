@@ -26,7 +26,6 @@ DSone HC Template Documentation – *master* branch
    :name: sec-struct
         
    structure/index
-   structure/folders/assetstore/index
        
 .. toctree::
    :maxdepth: 1
