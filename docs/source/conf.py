@@ -38,12 +38,6 @@ htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
 
 
-latex_elements = {
-latex_documents = [
-  ('index', 'ReadtheDocsTemplate.tex', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'manual'),
-]
-
 man_pages = [
     ('index', 'readthedocstemplate', u'Read the Docs Template Documentation',
      [u'Read the Docs'], 1)
