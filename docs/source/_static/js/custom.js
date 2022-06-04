@@ -146,7 +146,7 @@ const registerOnScrollEvent = (function(){
 
 // Subscribe to DOM changes in the sidebar container, because there is a
 // banner that gets added at a later point, that we might not catch otherwise.
-const registerSidebarObserver = (function(){
+/*const registerSidebarObserver = (function(){
   return function(callback) {
     const sidebarContainer = document.querySelector('.wy-side-scroll');
 
@@ -196,9 +196,9 @@ const registerSidebarObserver = (function(){
     const observer = new MutationObserver(observerCallback);
     observer.observe(sidebarContainer, observerConfig);
   };
-})();
+})();*/
 
-$(document).ready(() => {
+/*$(document).ready(() => {
   const mediaQuery = window.matchMedia('only screen and (min-width: 769px)');
 
   registerOnScrollEvent(mediaQuery);
@@ -206,7 +206,7 @@ $(document).ready(() => {
 
   registerSidebarObserver(() => {
     registerOnScrollEvent(mediaQuery);
-  });
+  });*/
 
 
 
