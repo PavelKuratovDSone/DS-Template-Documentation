@@ -130,27 +130,10 @@ html_theme_options = {
     "collapse_navigation": False,
 }
 
-html_title = supported_languages[language] % version
 
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
-html_context = {
-    "display_github": not is_i18n,  # Integrate GitHub
-    "github_user": "godotengine",  # Username
-    "github_repo": "godot-docs",  # Repo name
-    "github_version": "master",  # Version
-    "conf_py_path": "/",  # Path in the checkout to the docs root
-    "godot_inject_language_links": True,
-    "godot_docs_supported_languages": list(supported_languages.keys()),
-    "godot_docs_basepath": "https://docs.godotengine.org/",
-    "godot_docs_suffix": ".html",
-    "godot_default_lang": "en",
-    "godot_canonical_version": "stable",
-    # Distinguish local development website from production website.
-    # This prevents people from looking for changes on the production website after making local changes :)
-    "godot_title_prefix": "" if on_rtd else "(DEV) ",
-}
 
-html_logo = "img/docs_logo.png"
+
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ["_static"]
@@ -221,11 +204,7 @@ gettext_compact = False
 # and point to the parallel folder structure in godot-docs-l10n.
 # Note: Sphinx's handling of `figure_language_filename` may change in the future, monitor
 # https://github.com/sphinx-doc/sphinx/issues/7768 to see what would be relevant for us.
-figure_language_filename = "{root}.{language}{ext}"
 
-cwd = os.getcwd()
-
-sphinx_original_get_image_filename_for_language = sphinx.util.i18n.get_image_filename_for_language
 
 
 
@@ -234,13 +213,4 @@ sphinx_original_get_image_filename_for_language = sphinx.util.i18n.get_image_fil
 # concat from reST, so had to hardcode this in the "epilog" added to
 # all pages. This is used in index.rst to display the Weblate badge.
 # On English pages, the badge points to the language-neutral engage page.
-rst_epilog = """
-.. |weblate_widget| image:: https://hosted.weblate.org/widgets/godot-engine/{image_locale}/godot-docs/287x66-white.png
-    :alt: Translation status
-    :target: https://hosted.weblate.org/engage/godot-engine{target_locale}/?utm_source=widget
-    :width: 287
-    :height: 66
-""".format(
-    image_locale="-" if language == "en" else language,
-    target_locale="" if language == "en" else "/" + language,
-)
+
