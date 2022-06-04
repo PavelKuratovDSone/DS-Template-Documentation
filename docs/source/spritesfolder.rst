@@ -1,6 +1,0 @@
-Спрайты
-====
-.. _spritesfolder-label:
-
-
-
