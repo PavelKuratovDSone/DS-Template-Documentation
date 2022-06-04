@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
+project = 'DS Template Documentation'
+copyright = '2022, DS'
 author = 'Graziella'
 
 release = '0.1'
