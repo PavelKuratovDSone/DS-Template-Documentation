@@ -6,7 +6,7 @@ Engine.Coin
 
 Пример:
 
-.. code-block::
+.. code-block:: ```csharp
     public class AddCoinsExample
     {
         public ICoinsData coinsData;
