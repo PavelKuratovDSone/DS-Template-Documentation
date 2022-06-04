@@ -32,7 +32,12 @@ Models
 ~~~~~~~~~~~~~~~~~~
 Примитивные модели
 
-:ref:`models-label`
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   
+   models
+
 
 
 Shaders
