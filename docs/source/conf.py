@@ -40,8 +40,7 @@ pygments_style = 'sphinx'
 
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-if on_rtd:
-    using_rtd_theme = True
+
 
 # Theme options
 html_theme_options = {
@@ -59,8 +58,7 @@ html_css_files = [
     "css/custom.css",
 ]
 
-if not on_rtd:
-    html_css_files.append("css/dev.css")
+
 
 html_js_files = [
     "js/custom.js",
