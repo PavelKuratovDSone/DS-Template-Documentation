@@ -7,7 +7,7 @@ Engine.Coin
 Пример:
 
 ```csharp
-public class AddCoinsExample
+    public class AddCoinsExample
     {
         public ICoinsData coinsData;
         void OnEnable()
@@ -24,3 +24,4 @@ public class AddCoinsExample
             Debug.Log("Coins is updated...");
         }
     }
+    ```
