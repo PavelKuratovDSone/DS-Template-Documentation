@@ -1,6 +1,6 @@
 
 (function() {
-
+/*
     var doc_version = document.querySelector('meta[name="doc_version"]').getAttribute('content');
 
     // Initialize the Algolia search widget
@@ -18,5 +18,5 @@
             document.querySelector('#rtd-search-form input[type=text]').focus();
             event.preventDefault();
         }
-    })
+    })*/
 })();
