@@ -13,6 +13,9 @@ Animations
    
    animationsfolder
    
+
+
+
 Fonts
 ~~~~~~~~~~~~~~~~~~
 Шрифты
@@ -21,7 +24,10 @@ Fonts
    :maxdepth: 1
    
    fontsfolder
-   
+
+
+
+
 Materials
 ~~~~~~~~~~~~~~~~~~
 
@@ -52,6 +58,9 @@ Sprites
    :maxdepth: 1
    
    spritesfolder
+
+
+
 
 Textures
 ~~~~~~~~~~~~~~~~~~
