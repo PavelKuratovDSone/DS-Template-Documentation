@@ -7,11 +7,11 @@ Art
    :caption: Art
    :name: sec-art
    
-   structure/folders/Art/animations
-   structure/folders/Art/fonts
-   structure/folders/Art/materials
-   structure/folders/Art/models
-   structure/folders/Art/shaders
-   structure/folders/Art/sprites
-   structure/folders/Art/textures
+   animations
+   fonts
+   materials
+   models
+   shaders
+   sprites
+   textures
 
