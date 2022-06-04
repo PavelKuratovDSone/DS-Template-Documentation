@@ -217,9 +217,7 @@ $(document).ready(() => {
       <div class="admonition attention">
         <p class="first admonition-title">Attention</p>
         <p>
-          You are reading the <code class="docutils literal notranslate"><span class="pre">latest</span></code>
-          (unstable) version of this documentation, which may document features not available
-          or compatible with Godot 3.x.
+          Документация еще в разработке.
         </p>
         <p class="last">
           See <a class="reference" href="${updatedUrl}">this page</a>
