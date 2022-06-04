@@ -5,7 +5,7 @@ kek
 
 .. toctree::
    :maxdepth: 1
-   :name: sec-folders
+   :name: toc-folders
    
    assetstore/index
    examples/index
@@ -20,7 +20,7 @@ kek
    settings/index
    shaders/index
    
-kek
+lol
 
 
 

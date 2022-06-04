@@ -4,8 +4,7 @@ Art
 Начальный набор визуала для прототипирования
 .. toctree::
    :maxdepth: 1
-   :caption: Art
-   :name: sec-art
+   :name: toc-folders-art
    
    animations
    fonts
