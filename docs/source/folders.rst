@@ -36,9 +36,7 @@ Arrow
 .. figure:: images/primitives/arrow.png
     :scale: 300 %
     :align: center
-    :alt: Альтернативный текст
-    Подпись изображения
-    Легенда изображения.
+   
 
 Capsule
 """"""""""""""""""
