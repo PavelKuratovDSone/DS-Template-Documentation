@@ -12,10 +12,10 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
 
    quickstart
    folders
    api
-   :hidden:
    models

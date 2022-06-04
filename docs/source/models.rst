@@ -1,6 +1,7 @@
-API
-===
+Модели
+====
 .. _models-label:
+
 Arrow
 """"""""""""""""""
 .. figure:: images/primitives/arrow.png
