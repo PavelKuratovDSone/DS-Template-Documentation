@@ -6,7 +6,7 @@ Engine.Coin
 
 Пример:
 
-.. code-block:: sharp
+.. code-block::
     public class AddCoinsExample
     {
         public ICoinsData coinsData;
