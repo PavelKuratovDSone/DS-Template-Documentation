@@ -23,8 +23,8 @@ source_encoding = "utf-8-sig"
 master_doc = 'index'
 
 
-project = u'Read the Docs Template'
-copyright = u'2014, Read the Docs'
+project = u'DSone HC Template Documentation'
+copyright = u'2022 DSone'
 
 
 version = '1.0'
@@ -64,18 +64,18 @@ html_js_files = [
     ('js/algolia.js', {'defer': 'defer'})
 ]
 
-htmlhelp_basename = 'ReadtheDocsTemplatedoc'
+htmlhelp_basename = 'DSone HC Template Documentation'
 
 
 
 man_pages = [
-    ('index', 'readthedocstemplate', u'Read the Docs Template Documentation',
+    ('index', 'DSone HC Template Documentation', u'Read the DSone HC Template Documentation',
      [u'Read the Docs'], 1)
 ]
 
 texinfo_documents = [
-  ('index', 'ReadtheDocsTemplate', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'ReadtheDocsTemplate', 'One line description of project.',
+  ('index', 'DSone HC Template Documentation', u'Read the Docs Template Documentation',
+   u'Read the Docs', 'DSone HC Template Documentation', 'One line description of project.',
    'Miscellaneous'),
 ]
 
