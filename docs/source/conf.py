@@ -8,9 +8,7 @@ needs_sphinx = "1.3"
 
 sys.path.append(os.path.abspath("_extensions"))
 extensions = [
-    "sphinx_tabs.tabs",
-    "notfound.extension",
-    "sphinxext.opengraph",
+    
 ]
 
 sphinx_tabs_nowarn = True
