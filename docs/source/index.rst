@@ -25,7 +25,8 @@ DSone HC Template Documentation – *master* branch
    :caption: Структура проекта
    :name: sec-struct
         
-   structure/index    
+   structure/index
+   structure/assetstore/index
        
 .. toctree::
    :maxdepth: 1
