@@ -4,14 +4,22 @@ import sphinx_rtd_theme
 import sys
 import os
 
+needs_sphinx = "1.3"
 
-extensions = []
+sys.path.append(os.path.abspath("_extensions"))
+extensions = [
+    "sphinx_tabs.tabs",
+    "notfound.extension",
+    "sphinxext.opengraph",
+]
 
+sphinx_tabs_nowarn = True
 
 templates_path = ['_templates']
 
 
-source_suffix = '.rst'
+source_suffix = ".rst"
+source_encoding = "utf-8-sig"
 
 
 master_doc = 'index'
@@ -23,7 +31,7 @@ copyright = u'2014, Read the Docs'
 
 version = '1.0'
 
-release = '1.0'
+release = version
 
 
 exclude_patterns = ['_build']
