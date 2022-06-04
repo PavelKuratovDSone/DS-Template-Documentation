@@ -18,8 +18,10 @@ Art
 
 .. toctree::
    :maxdepth: 1
-   
+
+
    artfolder
+
 
 
 
