@@ -9,14 +9,14 @@ DSone HC Template Documentation – *master* branch
 .. toctree::
    :maxdepth: 1
    :caption: General
-   :name: sec-general
+   :name: sec-about
    
    about/index
       
 .. toctree::
    :maxdepth: 1
    :caption: Getting started
-   :name: sec-learn
+   :name: sec-start
       
    getting_started/index
       
