@@ -5,7 +5,6 @@ kek
 
 .. toctree::
    :maxdepth: 1
-   :caption: Папки
    :name: sec-folders
    
    assetstore/index
