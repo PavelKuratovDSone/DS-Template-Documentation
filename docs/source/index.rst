@@ -17,3 +17,5 @@ Contents
    quickstart
    folders
    api
+   :hidden:
+   models
