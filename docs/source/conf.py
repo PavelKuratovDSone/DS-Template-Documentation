@@ -58,11 +58,7 @@ html_css_files = [
 
 
 
-html_js_files = [
-    "js/custom.js",
-    ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
-    ('js/algolia.js', {'defer': 'defer'})
-]
+
 
 htmlhelp_basename = 'DSone HC Template Documentation'
 
