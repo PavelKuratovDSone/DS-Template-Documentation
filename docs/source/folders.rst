@@ -15,6 +15,7 @@ _Examples
 Art
 ----------------
 Стандартный набор арта
+
 .. toctree::
    :maxdepth: 1
 
