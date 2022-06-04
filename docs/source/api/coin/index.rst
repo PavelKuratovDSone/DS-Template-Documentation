@@ -6,8 +6,8 @@ Engine.Coin
 
 Пример:
 
-.. csharp:
-    public class AddCoinsExample
+
+    .. csharp:public class AddCoinsExample
     {
         public ICoinsData coinsData;
         void OnEnable()
