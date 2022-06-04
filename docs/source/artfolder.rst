@@ -7,6 +7,7 @@ Art
 Animations
 ~~~~~~~~~~~~~~~~~~
 Анимации UI
+
 .. toctree::
    :maxdepth: 1
    
