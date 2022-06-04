@@ -1,34 +1,26 @@
-Usage
+Быстрый старт
 =====
 
 .. _installation:
 
-Installation
+Основное содержание
 ------------
 
-To use Lumache, first install it using pip:
 
-.. code-block:: console
+.
 
-   (.venv) $ pip install lumache
 
-Creating recipes
+Временый список меток
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Вставка кода 
+.. code-block:: console
 
-.. autofunction:: lumache.get_random_ingredients
+   /
+   
+Выделение строчки рыжим ``текст`` 
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+Выделение строчки черным`lumache.get_random_ingredients`
 
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 

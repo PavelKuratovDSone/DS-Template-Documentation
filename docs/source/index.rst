@@ -13,4 +13,5 @@ Contents
 .. toctree::
 
    quickstart
+   folders
    api
