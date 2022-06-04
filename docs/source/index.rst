@@ -17,4 +17,10 @@ Contents
    quickstart
    folders
    api
+   artfolder
+   spritesfolder
+   modelsfolder
+   materialsfolder
+   fontsfolder
+   animationsfolder
 
