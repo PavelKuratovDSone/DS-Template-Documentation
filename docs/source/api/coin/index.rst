@@ -5,10 +5,11 @@ Engine.Coin
 необходимо прокинуть зависимости.
 
 Пример:
+
 .. code-block:: сsharp
     public class AddCoinsExample
     {
-    public ICoinsData coinsData;
+        public ICoinsData coinsData;
         void OnEnable()
         {
             coinsData = Engine.DI.DIContainer.GetAsSingle<ICoinsData>();
