@@ -17,8 +17,10 @@ Art
 Стандартный набор арта
 .. toctree::
    :maxdepth: 1
-   
+
+
    artfolder
+
 
 
 
