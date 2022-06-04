@@ -38,9 +38,35 @@ exclude_patterns = ['_build']
 
 pygments_style = 'sphinx'
 
-html_theme = 'default'
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+if on_rtd:
+    using_rtd_theme = True
+
+# Theme options
+html_theme_options = {
+    # if we have a html_logo below, this shows /only/ the logo with no title text
+    "logo_only": True,
+    # Collapse navigation (False makes it tree-like)
+    "collapse_navigation": False,
+}
 
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/algolia.css',
+    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
+    "css/custom.css",
+]
+
+if not on_rtd:
+    html_css_files.append("css/dev.css")
+
+html_js_files = [
+    "js/custom.js",
+    ('https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js', {'defer': 'defer'}),
+    ('js/algolia.js', {'defer': 'defer'})
+]
 
 htmlhelp_basename = 'ReadtheDocsTemplatedoc'
 
