@@ -47,6 +47,7 @@ html_theme_options = {
     # Collapse navigation (False makes it tree-like)
     "collapse_navigation": False,
 }
+html_logo = "img/docs_logo.png"
 
 html_static_path = ['_static']
 
