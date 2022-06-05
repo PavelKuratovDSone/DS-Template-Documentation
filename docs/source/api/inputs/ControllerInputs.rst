@@ -3,6 +3,26 @@ Engine.Input.ControllerInputs
 
 Работа с мышкой
 
+Engine.Input.ControllerInputs.OnMouse(MouseStatue)
+""""""""""""""""""""""""""""
+Возвращает ``bool``.
+
+Engine.Input.ControllerInputs.GetMouseState()
+""""""""""""""""""""""""""""
+Возвращает ``MouseStatue``.
+
+Engine.Input.ControllerInputs.s_EnableInputs
+""""""""""""""""""""""""""""
+Возвращает ``bool`` включен ли input.
+
+Engine.Input.ControllerInputs.IsRaycastedUI
+""""""""""""""""""""""""""""
+Возвращает ``bool`` было ли пересечение с каким либо объектом рейкастом.
+
+
+MouseStatue
+""""""""""""""""""""""""""""
+
 .. table:: ``MouseStatue``
 
     +------------------------+------------+----------+----------+
