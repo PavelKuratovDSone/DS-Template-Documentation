@@ -14,7 +14,7 @@ DSone HC Template Documentation – *master* branch
    about/index
       
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Getting started
    :name: sec-start
       
@@ -28,7 +28,7 @@ DSone HC Template Documentation – *master* branch
    structure/index
        
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: API
    :name: sec-api
       
