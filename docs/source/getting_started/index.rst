@@ -19,11 +19,11 @@ The class is responsible about the Game statue and manage the start game, win an
 
 ``MakeLost()``: To make lost the game with all logics.
 
-Notes:
+.. note::
 
-The three functions controller the progress events, inputs enable and Invokes GameDelegates in the game.
-You can get some static info like isStarted, isWin, isFinished….
-Controller continue, pause the game and change the timescale.
+    The three functions controller the progress events, inputs enable and Invokes GameDelegates in the game.
+    You can get some static info like isStarted, isWin, isFinished….
+    Controller continue, pause the game and change the timescale.
 
 GameDelegate:
 """"""""""""""""""""""""""""
@@ -66,9 +66,11 @@ Testing Mode:
 """"""""""""""""""""""""""""
 
 In GameSettings you can make the Mode Test enable and choice the level that you want to test for example let’s test level 5 then when you click play in editor The level that will loaded is with testing level index.
-.. figure:: img/TestingMode.png
+
+.. image:: img/TestingMode.png
        :scale: 100 %
        :align: center
+       
 If the level is existing in the main scene so that level will define like current level.
 LevelsData: The level data saved in this class you can reached the level data from here.
 
@@ -89,7 +91,8 @@ MouseType is Enum with values: Up or Down or Non. The function will detect the p
 something like this but not working well because it’s work just on UI But this delegate It’s works in all case and you can ignore the UI and others. Plus has bool isDraging and isClicked to get the player clicking state. You can controller the smooth of dragging and click.
 
 3. CrossInputs: is class for get the player click point on plane (Without collider). You can choice horizontal or vertical plane. Then call function GetCrossPoint(camera) It will give you the cross point between plane and camera Ray cast. This helps you to define some positions in word space without collider. And you can use offset to change the plane position.
-.. figure:: img/ControllerInputs.png
+
+.. image:: img/ControllerInputs.png
        :scale: 100 %
        :align: center
        
@@ -132,6 +135,7 @@ Debugger:
 ScreenDebugger: OnGUI function has some Styles and Rects to make labels, You can use engine.GUILib class to debug some labels to show some statues like FPS, … 
 
 example:
+
 .. code-block:: csharp
 
         void OnGUI()
@@ -147,6 +151,7 @@ Editor Mode:
 1- Validate: This is a function that help for change the settings in editor in MonoBehaviours and ScriptableObjects with writing automatics. By adding the IValidate interface on the script. And inside the function You can write your automatic code.
  
 Example:
+
 .. code-block:: csharp
 
         public class Player : MonoBehaviour, IValidate
@@ -160,7 +165,8 @@ Example:
         
 Here Validate function will execute when you click button Validate Settings in editor.
 The deference between OnValidate and Validate is OnValidate execute when you change value of the Component. Validate when you click Validate settings button.
-.. figure:: img/ValidateSettings.png
+
+.. image:: img/ValidateSettings.png
        :scale: 100 %
        :align: center
 
