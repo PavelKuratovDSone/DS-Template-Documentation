@@ -11,8 +11,9 @@ Here we register just one value, Always override the value to the last VALUE add
         Engine.DI.DIContainer.RegisterAsSingle<ICoinsData>(this);
     }
     
-Лучшая практика инжектить через ``MomoInjector``.
+Лучшая практика инжектить через ``MonoInjector``.
 По умолчанию лежит на сцене ``Main`` в объекте Managers.
+
 
 .. image:: img/MomoInjector.png
        :scale: 100 %
