@@ -1,4 +1,4 @@
 Engine.DI.DIContainer.Bind
 ============================
 
-null
+Bind all values of type TType and return it as an array of TType.

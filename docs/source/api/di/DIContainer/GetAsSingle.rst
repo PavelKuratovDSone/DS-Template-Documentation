@@ -1,4 +1,4 @@
 Engine.DI.DIContainer.GetAsSingle
 ============================
 
-null
+Get the last value Registered as a singleton of type TType.

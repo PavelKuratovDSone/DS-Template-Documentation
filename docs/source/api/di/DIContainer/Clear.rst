@@ -1,4 +1,4 @@
 Engine.DI.DIContainer.Clear
 ============================
 
-null
+Clear all values of type (TType)

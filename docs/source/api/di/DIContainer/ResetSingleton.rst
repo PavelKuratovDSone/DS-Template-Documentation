@@ -1,4 +1,4 @@
 Engine.DI.DIContainer.ResetSingleton
 ============================
 
-null
+Reset the value to the default value.
