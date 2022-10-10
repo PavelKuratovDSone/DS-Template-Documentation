@@ -1,4 +1,4 @@
-ADS SDK
+apps.AdsManager
 ============================
 
 null

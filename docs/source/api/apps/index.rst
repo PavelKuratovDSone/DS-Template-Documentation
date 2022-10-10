@@ -9,6 +9,6 @@ Another SDK
    adsmanager/index
    adssdk/index
    analyticssdk/index
-   ironscorce/index
+   ironsorce/index
 
    
