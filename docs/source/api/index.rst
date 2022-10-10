@@ -40,4 +40,6 @@ Engine
    ui/index
    utility/index
    virtualcams/index
+   adssdk/index
+   analyticssdk/index
    
