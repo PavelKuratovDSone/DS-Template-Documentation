@@ -3,7 +3,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Гайды
-   :name: sec-guides
+   :caption: Ios Build
+   :name: sec-ios
       
    iosbuild/index
