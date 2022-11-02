@@ -19,6 +19,13 @@ DSone HC Template Documentation – *master* branch
    :name: sec-start
       
    getting_started/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Гайды
+   :name: sec-guides
+      
+   guides/index
       
 .. toctree::
    :maxdepth: 2
